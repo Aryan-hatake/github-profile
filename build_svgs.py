@@ -58,7 +58,7 @@ def build_text(text_fill):
         row(90, 'GitHub Uptime', '<tspan class="key" y="90">GitHub Uptime</tspan>', '5 years, 7 months, 5 days', 'age_data'),
         row(110, 'Host', '<tspan class="key" y="110">Host</tspan>', 'Planet Earth (Remote OK)'),
         row(130, 'Kernel', '<tspan class="key" y="130">Kernel</tspan>', 'good-vibes-x64'),
-        row(150, 'IDE', '<tspan class="key" y="150">IDE</tspan>', 'VS Code, IntelliJ, Cursor'),
+        row(150, 'IDE', '<tspan class="key" y="150">IDE</tspan>', 'VS Code, IntelliJ, Antigravity'),
         '<tspan x="390" y="170" class="cc">. </tspan>\n',
         row(190, 'Languages.Programming', '<tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>', 'Java, TypeScript, JavaScript'),
         row(210, 'Development.Technologies', '<tspan class="key" y="210">Development</tspan>.<tspan class="key" y="210">Technologies</tspan>', 'React, Next.js, Node.js, AWS, Docker, K8s, GenAI'),
