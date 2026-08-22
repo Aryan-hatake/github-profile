@@ -87,12 +87,7 @@ def build_text(text_fill):
 
 
 def image_tag():
-    existing = (ROOT / 'dark_mode.svg').read_text(encoding='utf-8') if (ROOT / 'dark_mode.svg').exists() else ''
-    match = re.search(r'<image href="(data:image/png;base64,[^"]+)"[^>]*/>', existing)
-    if match:
-        href = match.group(1)
-    else:
-        href = 'data:image/png;base64,' + base64.b64encode((ROOT / 'ascii-art.png').read_bytes()).decode()
+    href = 'data:image/png;base64,' + base64.b64encode((ROOT / 'ascii-art.png').read_bytes()).decode()
     return f'<image href="{href}" x="15" y="15" width="360" height="447" preserveAspectRatio="xMidYMid meet"/>'
 
 
