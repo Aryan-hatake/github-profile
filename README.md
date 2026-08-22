@@ -1,7 +1,7 @@
-<a href="https://github.com/Aryan-hatake/Aryan-hatake">
+<a href="https://github.com/Aryan-hatake/github-profile">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aryan-hatake/Aryan-hatake/main/dark_mode.svg">
-    <img alt="Aryan Hatake's GitHub Profile README" src="https://raw.githubusercontent.com/Aryan-hatake/Aryan-hatake/main/light_mode.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aryan-hatake/github-profile/main/dark_mode.svg">
+    <img alt="Aryan Hatake's GitHub Profile README" src="https://raw.githubusercontent.com/Aryan-hatake/github-profile/main/light_mode.svg">
   </picture>
 </a>
 
