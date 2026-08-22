@@ -17,7 +17,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="150" class="cc">. </tspan><tspan class="key" y="150">IDE</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value" text-anchor="end" x="955" y="150">VS Code, IntelliJ, Antigravity</tspan>
 <tspan x="390" y="170" class="cc">. </tspan>
 <tspan x="390" y="190" class="cc">. </tspan><tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>:<tspan class="cc"> .... </tspan><tspan class="value" text-anchor="end" x="955" y="190">Java, TypeScript, JavaScript</tspan>
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key" y="210">Development</tspan>.<tspan class="key" y="210">Technologies</tspan>:<tspan class="cc"> . </tspan><tspan class="value" text-anchor="end" x="955" y="210">MERN, System-Design, DevOps, GenAI</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key" y="210">Dev</tspan>.<tspan class="key" y="210">Stack</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value" text-anchor="end" x="955" y="210">MERN, System-Design, DevOps, GenAI</tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
 <tspan x="390" y="250" class="cc">. </tspan><tspan class="key" y="250">Hobbies</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value" text-anchor="end" x="955" y="250">Idea: 100% | Plan: 50% | Ship: 50%</tspan>
 <tspan x="390" y="270" class="cc">. </tspan><tspan class="key" y="270">Interests</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value" text-anchor="end" x="955" y="270">Learning, Building, Shipping</tspan>

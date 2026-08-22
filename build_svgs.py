@@ -61,7 +61,7 @@ def build_text(text_fill):
         row(150, 'IDE', '<tspan class="key" y="150">IDE</tspan>', 'VS Code, IntelliJ, Antigravity'),
         '<tspan x="390" y="170" class="cc">. </tspan>\n',
         row(190, 'Languages.Programming', '<tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>', 'Java, TypeScript, JavaScript'),
-        row(210, 'Development.Technologies', '<tspan class="key" y="210">Development</tspan>.<tspan class="key" y="210">Technologies</tspan>', 'MERN, System-Design, DevOps, GenAI'),
+        row(210, 'Dev.Stack', '<tspan class="key" y="210">Dev</tspan>.<tspan class="key" y="210">Stack</tspan>', 'MERN, System-Design, DevOps, GenAI'),
         '<tspan x="390" y="230" class="cc">. </tspan>\n',
         row(250, 'Hobbies', '<tspan class="key" y="250">Hobbies</tspan>', 'Idea: 100% | Plan: 50% | Ship: 50%'),
         row(270, 'Interests', '<tspan class="key" y="270">Interests</tspan>', 'Learning, Building, Shipping'),
