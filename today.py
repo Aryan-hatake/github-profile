@@ -102,7 +102,7 @@ def public_stars_count(username):
     return total_stars
 
 
-def contribution_counter(username, from_date='2019-01-01T00:00:00Z', to_date=None):
+def contribution_counter(username, from_date='2026-09-29T00:00:00Z', to_date=None):
     """
     Returns total GitHub contribution count for the user.
     """
@@ -325,7 +325,7 @@ def embed_ascii_art(filename):
 
 
 LABEL_WIDTHS = {
-    'mohsen_uptime_data': "Mohsen Uptime",
+    'aryan_uptime_data': "Aryan Uptime",
     'age_data': 'GitHub Uptime',
     'repo_data': 'Repos',
     'contrib_data': 'Repos',
@@ -346,12 +346,12 @@ def justify_dots(label_plain, value_text):
     return ' ' + ('.' * gap) + ' '
 
 
-def svg_overwrite(filename, mohsen_uptime_data, age_data, star_data, repo_data, contrib_data, follower_data):
+def svg_overwrite(filename, aryan_uptime_data, age_data, star_data, repo_data, contrib_data, follower_data):
     tree = etree.parse(filename)
     root = tree.getroot()
 
-    find_and_replace(root, 'mohsen_uptime_data', mohsen_uptime_data)
-    find_and_replace(root, 'mohsen_uptime_data_dots', justify_dots(LABEL_WIDTHS['mohsen_uptime_data'], mohsen_uptime_data))
+    find_and_replace(root, 'aryan_uptime_data', aryan_uptime_data)
+    find_and_replace(root, 'aryan_uptime_data_dots', justify_dots(LABEL_WIDTHS['aryan_uptime_data'], aryan_uptime_data))
 
     find_and_replace(root, 'age_data', age_data)
     find_and_replace(root, 'age_data_dots', justify_dots(LABEL_WIDTHS['age_data'], age_data))
@@ -446,8 +446,8 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     acc_created = datetime.datetime.strptime(acc_date[:10], '%Y-%m-%d')
-    mohsen_uptime_data, mohsen_time = perf_counter(daily_readme, datetime.datetime(1997, 4, 29))
-    formatter('mohsen uptime', mohsen_time)
+    aryan_uptime_data, aryan_time = perf_counter(daily_readme, datetime.datetime(2006, 7, 6))
+    formatter('aryan uptime', aryan_time)
     github_uptime_data, age_time = perf_counter(daily_readme, acc_created)
     formatter('github uptime', age_time)
     try:
@@ -465,11 +465,11 @@ if __name__ == '__main__':
     for svg_file in ('dark_mode.svg', 'light_mode.svg'):
         embed_ascii_art(svg_file)
 
-    svg_overwrite('dark_mode.svg', mohsen_uptime_data, github_uptime_data, star_data, repo_data, contrib_data, follower_data)
-    svg_overwrite('light_mode.svg', mohsen_uptime_data, github_uptime_data, star_data, repo_data, contrib_data, follower_data)
+    svg_overwrite('dark_mode.svg', aryan_uptime_data, github_uptime_data, star_data, repo_data, contrib_data, follower_data)
+    svg_overwrite('light_mode.svg', aryan_uptime_data, github_uptime_data, star_data, repo_data, contrib_data, follower_data)
 
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + mohsen_time + age_time + star_time + repo_time + contrib_time)),
+        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + aryan_time + age_time + star_time + repo_time + contrib_time)),
         ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))

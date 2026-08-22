@@ -11,9 +11,9 @@ ROOT = Path(__file__).parent
 RX = '955'
 LINE_WIDTH = 57
 
-diff = relativedelta.relativedelta(datetime.today(), datetime(1997, 4, 29))
+diff = relativedelta.relativedelta(datetime.today(), datetime(2006, 7, 6))
 plural = lambda n, w: w + ('s' if n != 1 else '')
-MOHSEN_UPTIME = (
+ARYAN_UPTIME = (
     f"{diff.years} {plural(diff.years, 'year')}, "
     f"{diff.months} {plural(diff.months, 'month')}, "
     f"{diff.days} {plural(diff.days, 'day')}"
@@ -52,25 +52,25 @@ def build_text(text_fill):
     repos_dots = dots('Repos', repos_value)
 
     lines = [
-        f'<tspan x="390" y="30">MohsenDastaran</tspan>{sep}',
-        row(50, 'OS', '<tspan class="key" y="50">OS</tspan>', 'Linux, Windows'),
-        row(70, 'Mohsen Uptime', '<tspan class="key" y="70">Mohsen Uptime</tspan>', MOHSEN_UPTIME, 'mohsen_uptime_data'),
+        f'<tspan x="390" y="30">Aryan Gadhave</tspan>{sep}',
+        row(50, 'OS', '<tspan class="key" y="50">OS</tspan>', 'Windows'),
+        row(70, 'Aryan Uptime', '<tspan class="key" y="70">Aryan Uptime</tspan>', ARYAN_UPTIME, 'aryan_uptime_data'),
         row(90, 'GitHub Uptime', '<tspan class="key" y="90">GitHub Uptime</tspan>', '5 years, 7 months, 5 days', 'age_data'),
         row(110, 'Host', '<tspan class="key" y="110">Host</tspan>', 'Planet Earth (Remote OK)'),
-        row(130, 'Kernel', '<tspan class="key" y="130">Kernel</tspan>', 'good-vibes-amd64'),
-        row(150, 'IDE', '<tspan class="key" y="150">IDE</tspan>', 'VS Code, Cursor'),
+        row(130, 'Kernel', '<tspan class="key" y="130">Kernel</tspan>', 'good-vibes-x64'),
+        row(150, 'IDE', '<tspan class="key" y="150">IDE</tspan>', 'VS Code, Antigravity, IntelliJ, Cursor'),
         '<tspan x="390" y="170" class="cc">. </tspan>\n',
-        row(190, 'Languages.Programming', '<tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>', 'Rust, TypeScript, JavaScript'),
-        row(210, 'Languages.Frameworks', '<tspan class="key" y="210">Languages</tspan>.<tspan class="key" y="210">Frameworks</tspan>', 'Vue, Nuxt, React Native'),
+        row(190, 'Languages.Programming', '<tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>', 'Java, TypeScript, JavaScript'),
+        row(210, 'Development.Technologies', '<tspan class="key" y="210">Development</tspan>.<tspan class="key" y="210">Technologies</tspan>', 'React, Node.js, GenAI, AWS, Express, MongoAtlas, Next, Docker, Kubernetes'),
         '<tspan x="390" y="230" class="cc">. </tspan>\n',
-        row(250, 'Hobbies', '<tspan class="key" y="250">Hobbies</tspan>', 'Guitar, Movies and Music'),
-        row(270, 'Interests', '<tspan class="key" y="270">Interests</tspan>', 'Late-Night Coding, Open Source Dev'),
+        row(250, 'Hobbies', '<tspan class="key" y="250">Hobbies</tspan>', 'Scratching Idea 100%, Scraping Idea 50%, Implementing Idea 50%'),
+        row(270, 'Interests', '<tspan class="key" y="270">Interests</tspan>', 'Learning, Building, Shipping '),
         f'<tspan x="390" y="310">{contact_sep}',
-        row(330, 'Email', '<tspan class="key" y="330">Email</tspan>', 'mohsen.dastaran@gmail.com'),
-        row(350, 'GitHub', '<tspan class="key" y="350">GitHub</tspan>', 'github.com/MohsenDastaran'),
-        row(370, 'LinkedIn', '<tspan class="key" y="370">LinkedIn</tspan>', 'linkedin.com/in/mohsendastaran'),
-        row(390, 'Portfolio', '<tspan class="key" y="390">Portfolio</tspan>', 'mohsendastaran.netlify.app'),
-        row(410, 'Telegram', '<tspan class="key" y="410">Telegram</tspan>', 't.me/MohsenDastaran'),
+        row(330, 'Email', '<tspan class="key" y="330">Email</tspan>', 'aryangadhave202@gmail.com'),
+        row(350, 'GitHub', '<tspan class="key" y="350">GitHub</tspan>', 'github.com/Aryan-hatake'),
+        row(370, 'LinkedIn', '<tspan class="key" y="370">LinkedIn</tspan>', 'linkedin.com/in/aryangadhave'),
+        row(390, 'Instagram', '<tspan class="key" y="390">Instagram</tspan>', '@aryan8bits'),
+
         '<tspan x="390" y="430" class="cc">. </tspan>\n',
         f'<tspan x="390" y="450">{stats_sep}',
         (

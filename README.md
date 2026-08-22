@@ -1,48 +1,54 @@
-<a href="https://github.com/MohsenDastaran/MohsenDastaran">
+<a href="https://github.com/Aryan-hatake/Aryan-hatake">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MohsenDastaran/MohsenDastaran/main/dark_mode.svg">
-    <img alt="Mohsen Dastaran's GitHub Profile README" src="https://raw.githubusercontent.com/MohsenDastaran/MohsenDastaran/main/light_mode.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aryan-hatake/Aryan-hatake/main/dark_mode.svg">
+    <img alt="Aryan Hatake's GitHub Profile README" src="https://raw.githubusercontent.com/Aryan-hatake/Aryan-hatake/main/light_mode.svg">
   </picture>
 </a>
 
 ###
 
-[![Mohsen's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MohsenDastaran&theme=github-compact)](https://github.com/MohsenDastaran/github-readme-activity-graph)
+[![Aryan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aryan-hatake&theme=github-compact)](https://github.com/Aryan-hatake/github-readme-activity-graph)
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=mohsendastaran&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=Aryan-hatake&theme=tokyonight" alt="GitHub Stats" />
   <br />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=mohsendastaran&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Aryan-hatake&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
   <br />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=mohsendastaran&layout=compact&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aryan-hatake&layout=compact&theme=tokyonight" alt="GitHub Stats" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="40" alt="javascript logo"  />
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white&style=for-the-badge" height="40" alt="java logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="40" alt="typescript logo"  />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="40" alt="javascript logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=black&style=for-the-badge" height="40" alt="vuejs logo"  />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="40" alt="typescript logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxtdotjs&logoColor=black&style=for-the-badge" height="40" alt="nuxtjs logo"  />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="react logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="40" alt="nextjs logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" height="40" alt="nodejs logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo"  />
+  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge" height="40" alt="express logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" height="40" alt="tailwind logo"  />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="40" alt="mongodb logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="react logo"  />
+  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white&style=for-the-badge" height="40" alt="aws logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="react native logo"  />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="40" alt="docker logo" />
   <img width="12" />
-  <img src="https://img.shields.io/badge/Rust-DEA584?logo=rust&logoColor=black&style=for-the-badge" height="40" alt="rust logo"  />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge" height="40" alt="kubernetes logo" />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white&style=for-the-badge" height="40" alt="genai logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
 </div>
 
 ###
