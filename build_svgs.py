@@ -63,7 +63,7 @@ def build_text(text_fill):
         row(190, 'Languages.Programming', '<tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>', 'Java, TypeScript, JavaScript'),
         row(210, 'Dev.Stack', '<tspan class="key" y="210">Dev</tspan>.<tspan class="key" y="210">Stack</tspan>', 'MERN, System-Design, DevOps, GenAI'),
         '<tspan x="390" y="230" class="cc">. </tspan>\n',
-        row(250, 'Hobbies', '<tspan class="key" y="250">Hobbies</tspan>', 'Idea: 100% | Plan: 50% | Ship: 50%'),
+        row(250, 'Hobbies', '<tspan class="key" y="250">Hobbies</tspan>', 'Sipping Coffee | Coding | Touching grass'),
         row(270, 'Interests', '<tspan class="key" y="270">Interests</tspan>', 'Learning, Building, Shipping'),
         f'<tspan x="390" y="310">{contact_sep}',
         row(330, 'Email', '<tspan class="key" y="330">Email</tspan>', 'aryangadhave202@gmail.com'),

@@ -10,8 +10,8 @@ text, tspan {white-space: pre;}
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">Aryan Gadhave</tspan> -—————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key" y="50">OS</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value" text-anchor="end" x="955" y="50">Windows</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key" y="70">Aryan Uptime</tspan>:<tspan class="cc" id="aryan_uptime_data_dots"> ............... </tspan><tspan class="value" id="aryan_uptime_data" text-anchor="end" x="955" y="70">20 years, 1 month, 16 days</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key" y="90">GitHub Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .............. </tspan><tspan class="value" id="age_data" text-anchor="end" x="955" y="90">2 years, 0 months, 15 days</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key" y="70">Aryan Uptime</tspan>:<tspan class="cc" id="aryan_uptime_data_dots"> ............... </tspan><tspan class="value" id="aryan_uptime_data" text-anchor="end" x="955" y="70">20 years, 1 month, 17 days</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key" y="90">GitHub Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ............... </tspan><tspan class="value" id="age_data" text-anchor="end" x="955" y="90">5 years, 7 months, 5 days</tspan>
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key" y="110">Host</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value" text-anchor="end" x="955" y="110">Planet Earth (Remote OK)</tspan>
 <tspan x="390" y="130" class="cc">. </tspan><tspan class="key" y="130">Kernel</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value" text-anchor="end" x="955" y="130">good-vibes-x64</tspan>
 <tspan x="390" y="150" class="cc">. </tspan><tspan class="key" y="150">IDE</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value" text-anchor="end" x="955" y="150">VS Code, IntelliJ, Antigravity</tspan>
@@ -19,7 +19,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="190" class="cc">. </tspan><tspan class="key" y="190">Languages</tspan>.<tspan class="key" y="190">Programming</tspan>:<tspan class="cc"> .... </tspan><tspan class="value" text-anchor="end" x="955" y="190">Java, TypeScript, JavaScript</tspan>
 <tspan x="390" y="210" class="cc">. </tspan><tspan class="key" y="210">Dev</tspan>.<tspan class="key" y="210">Stack</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value" text-anchor="end" x="955" y="210">MERN, System-Design, DevOps, GenAI</tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key" y="250">Hobbies</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value" text-anchor="end" x="955" y="250">Idea: 100% | Plan: 50% | Ship: 50%</tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key" y="250">Hobbies</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value" text-anchor="end" x="955" y="250">Sipping Coffee | Coding | Touching grass</tspan>
 <tspan x="390" y="270" class="cc">. </tspan><tspan class="key" y="270">Interests</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value" text-anchor="end" x="955" y="270">Learning, Building, Shipping</tspan>
 <tspan x="390" y="310">- Contact</tspan> -—————————————————————————————————————-—-
 <tspan x="390" y="330" class="cc">. </tspan><tspan class="key" y="330">Email</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value" text-anchor="end" x="955" y="330">aryangadhave202@gmail.com</tspan>
@@ -28,7 +28,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="390" class="cc">. </tspan><tspan class="key" y="390">Instagram</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value" text-anchor="end" x="955" y="390">@aryan8bits</tspan>
 <tspan x="390" y="430" class="cc">. </tspan>
 <tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————-—-
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key" y="470">Repos</tspan>:<tspan class="cc" id="repos_line_dots"> ................. </tspan><tspan y="470" text-anchor="end" x="955" class="value"><tspan id="repo_data">37</tspan> {<tspan class="key">Contributed</tspan>: <tspan id="contrib_data">38</tspan>} | <tspan class="key">Stars</tspan>: <tspan id="star_data">0</tspan></tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key" y="490">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........................................... </tspan><tspan class="value" id="follower_data" text-anchor="end" x="955" y="490">3</tspan>
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key" y="470">Repos</tspan>:<tspan class="cc" id="repos_line_dots"> ................ </tspan><tspan y="470" text-anchor="end" x="955" class="value"><tspan id="repo_data">34</tspan> {<tspan class="key">Contributed</tspan>: <tspan id="contrib_data">34</tspan>} | <tspan class="key">Stars</tspan>: <tspan id="star_data">26</tspan></tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key" y="490">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> .......................................... </tspan><tspan class="value" id="follower_data" text-anchor="end" x="955" y="490">13</tspan>
 </text>
 </svg>
