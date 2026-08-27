@@ -102,11 +102,15 @@ def public_stars_count(username):
     return total_stars
 
 
-def contribution_counter(username, from_date='2026-09-29T00:00:00Z', to_date=None):
+def contribution_counter(username, from_date=None, to_date=None):
     """
     Returns total GitHub contribution count for the user.
+    from_date defaults to the user's account creation date if not provided.
     """
     query_count('graph_commits')
+    if from_date is None:
+        # Fall back to a safe early date so we never miss contributions
+        from_date = '2008-01-01T00:00:00Z'
     if to_date is None:
         to_date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     query = '''
@@ -461,6 +465,9 @@ if __name__ == '__main__':
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
+    contribution_count, contribution_time = perf_counter(contribution_counter, USER_NAME, acc_date)
+    formatter('contributions', contribution_time)
+    print('   Total contributions since account creation:', contribution_count)
 
     for svg_file in ('dark_mode.svg', 'light_mode.svg'):
         embed_ascii_art(svg_file)
